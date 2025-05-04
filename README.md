@@ -34,6 +34,5 @@
 This script should be specifed in the monit hosts configuration file
 ```
 check host srv.bulbinus 172.16.1.1
-if failed ping then exec "/opt/monit/send_event.sh -t 69"
+if failed ping then exec "/opt/monit/send_event.sh"
 ```
-where -t paramter means a thread of a group chat
