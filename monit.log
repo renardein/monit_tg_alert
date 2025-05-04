@@ -1,0 +1,11 @@
+[EEST Aug  3 12:55:26] info     : Starting Monit 5.20.0 daemon with http interface at [192.168.1.11]:2812
+[EEST Aug  3 12:55:26] info     : 'pisky' Monit 5.20.0 started
+[EEST Aug  3 14:41:23] error    : 'OpenVPN' process is not running
+[EEST Aug  3 14:41:23] info     : 'OpenVPN' trying to restart
+[EEST Aug  3 14:41:23] info     : 'OpenVPN' start: '/bin/systemctl start openvpn'
+[EEST Aug  3 14:42:23] error    : 'OpenVPN' service restarted 1 times within 1 cycles(s) - exec
+[EEST Aug  3 14:42:23] info     : 'OpenVPN' exec: '/usr/share/monit/monit_2_tg.py'
+[EEST Aug  3 14:42:23] info     : 'OpenVPN' process is running with pid 7446
+[EEST Aug  3 14:42:23] info     : 'OpenVPN' process is running after previous restart timeout (manually recovered?)
+[EEST Aug  3 14:42:24] info     : Alert sent successfully via Telegram
+
